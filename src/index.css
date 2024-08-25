@@ -21,8 +21,8 @@ nav {
 
 .navigation-buttons:hover {
     text-decoration: underline;
-    background-color: brown;
-    color: white;
+    background-color: #f8bd1a;
+    cursor: pointer;
 }
 
 body {
