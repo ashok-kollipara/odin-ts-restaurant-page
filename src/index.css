@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+}
+
+.navigation-buttons {
+    font-size: 1.5rem;
+    border-radius: 0px;
+    border: none;
+    flex-grow: 1;
+    background-color: #f7f7f7;
+    width: 40px;
+    text-wrap: wrap;
+}
+
+.navigation-buttons:hover {
+    text-decoration: underline;
+    background-color: brown;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    margin: min(10vh, 30px) min(20vw, 50px);
+    background-color: #f7f7f7;
+}
+
+.header-logo, .footer-logo {
+    background-image: url("./restologo.png");
+    background-size: 100% 100%;
+    width: 300px;
+    height: 100px;
+}
+
+div#content {
+    margin: 5vw;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
