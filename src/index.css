@@ -3,6 +3,10 @@ nav {
     justify-content: space-evenly;
 }
 
+p, li {
+    font-size: 1.2rem
+}
+
 .navigation {
     display: flex;
     justify-content: space-evenly;
@@ -42,10 +46,24 @@ body {
 }
 
 div#content {
-    margin: 5vw;
+    margin: 5vh 15vw;
 }
 
 footer {
     display: flex;
     justify-content: center;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul.contacts {
+    padding: 0px;
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.2;
 }
